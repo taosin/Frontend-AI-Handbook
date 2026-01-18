@@ -116,8 +116,8 @@
 
 ## 🤝 共建邀请
 这不是一份完美的文档，而是一个正在生长的项目。欢迎：
-- 提出疑问或新想法 [创建Issue]
-- 分享你的最佳实践 [发起Pull Request]
+- 提出疑问或新想法 [创建Issue](https://github.com/taosin/Frontend-AI-Handbook/issues/new)
+- 分享你的最佳实践 [发起Pull Request](https://github.com/taosin/Frontend-AI-Handbook/pulls)
 - 通过讨论，一起厘清模糊地带
 
 ## 📈 近期更新
