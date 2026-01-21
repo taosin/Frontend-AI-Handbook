@@ -5,38 +5,82 @@
 
 ## 🌍 Language Versions / 语言版本
 
-- **[中文版 (Chinese)](./zh/README.md)** - 完整的中文版本手册
-- **[English Version](./en/README.md)** - Complete English version handbook
+- **[中文版 (Chinese)](./docs/zh/README.md)** - 完整的中文版本手册
+- **[English Version](./docs/en/README.md)** - Complete English version handbook
 
----
+## 🚀 Quick Start / 快速开始
 
-## 🧠 Origin / 缘起
+### 安装依赖
 
-**English**: 33+ years old, navigating the technological tide. I firmly believe that AI is not a replacement for frontend engineers, but rather a cognitive exoskeleton and efficiency lever. This handbook is my public record of systematic learning, practice, and reflection, aimed at drawing a navigation map for this new era together with fellow travelers.
+```bash
+npm install
+```
 
-**中文**: 33+岁，身处技术洪流。我坚信，AI不是前端工程师的替代者，而是认知外骨骼与效率杠杆。本手册是我系统性学习、实践与思考的公开记录，旨在与同行者共同绘制这个新时代的导航图。
+### 开发模式
 
-## 📚 Quick Navigation / 快速导航
+```bash
+npm run dev
+```
+
+访问 http://localhost:5173 查看文档站点
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+构建后的文件在 `docs/.vitepress/dist` 目录
+
+### 预览生产构建
+
+```bash
+npm run preview
+```
+
+## 📁 项目结构
+
+```
+Frontend-AI-Handbook/
+├── docs/                    # VitePress 文档目录
+│   ├── .vitepress/         # VitePress 配置
+│   │   └── config.ts       # 配置文件
+│   ├── zh/                 # 中文版内容
+│   ├── en/                 # 英文版内容
+│   ├── index.md            # 中文版首页
+│   └── en/
+│       └── index.md        # 英文版首页
+├── package.json
+└── README.md
+```
+
+## 🛠️ 技术栈
+
+- [VitePress](https://vitepress.dev/) - 基于 Vite 的静态站点生成器
+- Markdown - 文档编写
+- TypeScript - 配置文件类型支持
+
+## 📚 文档内容
 
 ### 中文版目录
-- [序言：为什么需要这本手册](./zh/00-序言/README.md)
-- [第一部分：理念篇](./zh/01-理念篇/)
-- [第二部分：工具篇](./zh/02-工具篇/)
-- [第三部分：工程篇](./zh/03-工程篇/)
-- [第四部分：应用篇](./zh/04-应用篇/)
-- [第五部分：最佳实践与案例库](./zh/05-最佳实践与案例库/)
-- [第六部分：资源与未来](./zh/06-资源与未来/)
-- [附录](./zh/附录/README.md)
+- [序言：为什么需要这本手册](./docs/zh/00-序言/README.md)
+- [第一部分：理念篇](./docs/zh/01-理念篇/)
+- [第二部分：工具篇](./docs/zh/02-工具篇/)
+- [第三部分：工程篇](./docs/zh/03-工程篇/)
+- [第四部分：应用篇](./docs/zh/04-应用篇/)
+- [第五部分：最佳实践与案例库](./docs/zh/05-最佳实践与案例库/)
+- [第六部分：资源与未来](./docs/zh/06-资源与未来/)
+- [附录](./docs/zh/附录/README.md)
 
 ### English Version Contents
-- [Preface: Why This Handbook](./en/00-Preface/README.md) *(Coming Soon)*
-- [Part 1: Concepts](./en/01-Concepts/) *(Coming Soon)*
-- [Part 2: Tools](./en/02-Tools/) *(Coming Soon)*
-- [Part 3: Engineering](./en/03-Engineering/) *(Coming Soon)*
-- [Part 4: Applications](./en/04-Applications/) *(Coming Soon)*
-- [Part 5: Best Practices](./en/05-Best-Practices/) *(Coming Soon)*
-- [Part 6: Resources](./en/06-Resources/) *(Coming Soon)*
-- [Appendix](./en/Appendix/README.md) *(Coming Soon)*
+- [Preface: Why This Handbook](./docs/en/00-Preface/README.md) *(Coming Soon)*
+- [Part 1: Concepts](./docs/en/01-Concepts/) *(Coming Soon)*
+- [Part 2: Tools](./docs/en/02-Tools/) *(Coming Soon)*
+- [Part 3: Engineering](./docs/en/03-Engineering/) *(Coming Soon)*
+- [Part 4: Applications](./docs/en/04-Applications/) *(Coming Soon)*
+- [Part 5: Best Practices](./docs/en/05-Best-Practices/) *(Coming Soon)*
+- [Part 6: Resources](./docs/en/06-Resources/) *(Coming Soon)*
+- [Appendix](./docs/en/Appendix/README.md) *(Coming Soon)*
 
 ## 🎯 Target Audience / 目标读者
 
