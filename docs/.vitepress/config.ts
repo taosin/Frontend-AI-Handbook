@@ -1,6 +1,14 @@
 import { defineConfig } from 'vitepress'
 
+// 根据环境变量设置 base 路径
+// GitHub Pages: /Frontend-AI-Handbook/ (仓库名)
+// Vercel: / (根路径)
+const base = process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES === 'true' 
+  ? '/Frontend-AI-Handbook/' 
+  : '/'
+
 export default defineConfig({
+  base,
   title: 'Frontend AI Handbook',
   description: 'A practice-driven guide exploring how AI empowers modern frontend engineering',
   
